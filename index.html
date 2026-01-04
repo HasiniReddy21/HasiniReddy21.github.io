@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Futuristic Developer Portfolio</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="logo">Software Developer</div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <canvas id="particles"></canvas>
+
+  <div class="hero-content">
+    <h1>Software Developer</h1>
+    <h3>Software Engineer</h3>
+    <h2 class="typing"></h2>
+
+    <div class="hero-buttons">
+      <a href="#projects" class="btn primary">View Projects</a>
+      <a href="#contact" class="btn secondary">Contact Me</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section glass">
+  <h2>About Me</h2>
+  <p>
+    I am a motivated undergraduate student with a strong passion for building intelligent, data-driven software solutions. My interests span across 
+    Data Science, Data Analytics, Full-Stack Development, and Machine Learning Engineering, allowing me to approach problems from both analytical and 
+    engineering perspectives.
+  </p>
+<p>
+  As a growing technologist, I aim to contribute to impactful projects where data, intelligence, and software come together to solve meaningful 
+  problems while continuously improving technical and problem-solving skills.
+</p>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section">
+  <h2>Skills</h2>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h3>Languages</h3>
+      <p>Python, C, C++, JavaScript</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Web Technologies</h3>
+      <p>HTML, CSS</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Frameworks</h3>
+      <p>React.js, Node.js,</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Databases</h3>
+      <p>MySQL</p>
+    </div>
+
+    <div class="skill-card">
+      <h3>Data Analytics & Machine Learning</h3>
+      <p>Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <h3>Projects</h3>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Adaptive and Responsive Traffic Signal Control</h3>
+      <h6>Using Fog Computing and Reinforcement Learning</h6>
+      <p></p>
+      <p>Designed and implemented an adaptive traffic signal control system using real-time traffic simulation data from SUMO integrated through TraCI. The system employs an 
+        Artificial Neural Network(ANN) trained using the Proximal Policy Optimization (PPO) reinforcement learning algorithm to dynamically optimize signal timings.
+        Fog computing principles are applied to enable low-latency, decentralized decision-making, improving traffic flow efficiency and reducing congestion at intersections.</p>
+      <div class="tags">
+        <span>Python</span>
+        <span>SUMO</span>
+        <span>TraCI</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/23CSE362-edge-computing-2025-26-odd/capstone-project-32_404-traffic-not-found">GitHub</a>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <h3>Drug Watch</h3>
+      <p>Drug Watch is a healthcare text-analysis project that uses NLP and machine learning to detect adverse drug events from medical data and present the results through an interactive web application.</p>
+      <div class="tags">
+        <span>Python</span>
+        <span>NLP</span>
+        <span>Machine Learning</span>
+        <span>FastAPI</span>
+        <span>React.js</span>
+      </div>
+      <div class="project-links">
+        <a href="https://github.com/">GitHub</a>
+        <!--<a href="#">Live Demo</a> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section glass">
+  <h2>Contact Me</h2>
+
+  <form class="contact-form">
+    <input type="text" placeholder="name" required />
+    <input type="E-mail" placeholder="mail" required />
+    <!-- <input type="Linkedin" placeholder="HasiniReddy M" required /> -->
+    <textarea placeholder="Your Message"></textarea>
+    <button class="btn primary">Send Message</button>
+  </form>
+
+  <div class="socials">
+    <a href="https://github.com/HasiniReddy21" target="_blank">GitHub</a>
+    <a href="https://www.linkedin.com/in/hasinireddy-m-0848952a4" target="_blank">LinkedIn</a>
+    <a href="mailto:hasinireddym2108@gmail.com">Email</a>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <p>© <span id="3rd year"></span> | Let's build something impactful together.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

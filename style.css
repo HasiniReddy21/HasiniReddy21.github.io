@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+  
+  body {
+    background: #0a0a0f;
+    color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  /* NAVBAR */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 40px;
+    background: rgba(10,10,15,0.6);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+  }
+  
+  .navbar a {
+    color: #00f5ff;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  
+  /* HERO */
+  .hero {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #particles {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .hero-content {
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    text-shadow: 0 0 20px #00f5ff;
+  }
+  
+  .hero h2 {
+    margin: 20px 0;
+    color: #8b5cf6;
+  }
+  
+  /* BUTTONS */
+  .btn {
+    padding: 12px 30px;
+    margin: 10px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .primary {
+    background: #00f5ff;
+    color: #000;
+    box-shadow: 0 0 20px #00f5ff;
+  }
+  
+  .secondary {
+    border: 1px solid #00f5ff;
+    color: #00f5ff;
+  }
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  
+  /* SECTIONS */
+  .section {
+    padding: 100px 10%;
+  }
+  
+  .glass {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+  }
+  
+  /* SKILLS */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+  }
+  
+  .skill-card {
+    padding: 20px;
+    border: 1px solid #00f5ff;
+    border-radius: 15px;
+    transition: 0.3s;
+  }
+  
+  .skill-card:hover {
+    box-shadow: 0 0 20px #00f5ff;
+  }
+  
+  /* PROJECTS */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+  }
+  
+  .project-card {
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #0066ff;
+    transition: 0.3s;
+  }
+  
+  .project-card:hover {
+    box-shadow: 0 0 25px #0066ff;
+  }
+  
+  /* CONTACT */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid #00f5ff;
+    color: white;
+  }
+  
+  /* FOOTER */
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #aaa;
+  }
+  
